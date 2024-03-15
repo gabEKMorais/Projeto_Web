@@ -1,0 +1,29 @@
+.main_div {
+    display: flex;
+    flex: 5;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: aqua;
+}
+.second_div {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div_foot {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    background-color: brown;
+    border-radius: 2% 2% 0 0;
+}
+.square {
+    border: 1px outset rgb(0, 0, 0);
+    background-color: lightBlue;
+    height:15px;
+    width:15px;
+    cursor:pointer;
+}
